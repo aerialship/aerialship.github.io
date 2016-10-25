@@ -8,6 +8,8 @@ url: "http://www.aerialship.com" # the base hostname & protocol for your site
 twitter_username: aerialship
 github_username:  aerialship
 
+highlighter: rouge
+
 # Build settings
 markdown: kramdown
 

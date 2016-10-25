@@ -8,6 +8,20 @@
 {% include header.html %}
 
 <div class="container">
+    <div class="alert alert-danger">
+        <h3>
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            Deprecation Notice
+        </h3>
+        <p>The aerialship set of libraries are deprecated and not maintained anymore. Consider using the <b>new version</b> of the lightsaml:</p>
+        <p>
+        <ul>
+            <li>aerialship/lightsaml => <a href="https://packagist.org/packages/lightsaml/lightsaml">lightsaml/lightsaml</a></li>
+            <li>aerialship/saml-sp-bundle => <a href="https://packagist.org/packages/lightsaml/sp-bundle">lightsaml/sp-bundle</a></li>
+        </ul>
+        </p>
+        <p>More information can be found on <a href="https://www.lightsaml.com">LightSAML website</a></p>
+    </div>
     {{ content }}
 </div>
 

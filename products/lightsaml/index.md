@@ -13,24 +13,23 @@ Installation
 
 It is recommended you install LightSaml with composer
 
-Add a requirement to your project composer.json
+Add a requirement to your project ``composer.json``
 
-{% highlight json %}
-# composer.json
+```json
 {
     "require": {
         "aerialship/lightsaml": "dev-master"
     }
 }
-{% endhighlight %}
+```
 
 **Note**: *You should replace dev-master with concrete version.*
 
 And then run from the command line composer update
 
-{% highlight bash %}
+```bash
 $ composer.phar update aerialship/lightsaml
-{% endhighlight %}
+```
 
 After that you will have LightSaml installed in your vendor directory.
 
